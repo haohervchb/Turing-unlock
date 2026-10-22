@@ -1,0 +1,13 @@
+{
+  "upstream_repository": "https://github.com/xrip/cmp50hx-unlock",
+  "upstream_commit": "df2fe11b370bb52cc314576d0f2f5ae47ce908f8",
+  "inputs_redistributed": false,
+  "inputs": [
+    {"path": "artifacts/2080ti-fwsec-from-v4/fwsec_50hx_prod.bin", "bytes": 39440, "sha256": "584b5fe0826c40aaa8731d70f4fe5fb505380075dca77f7a94d31cfa09d20f6e"},
+    {"path": "third_party/cmp50hx-unlock/efi-unlock/blobs/bl_gsp_tu102.bin", "bytes": 768, "sha256": "f21f1cfbb8fffa8067685314367fc4c50f3f84dd99eda7c19db4292d9269b9d9"},
+    {"path": "third_party/cmp50hx-unlock/efi-unlock/blobs/booter_ucode_prod.bin", "bytes": 59136, "sha256": "e0f0fc93da097b5b68e5af3adb58b2235ed1fad5fce0b23592d3895af44cb743"},
+    {"path": "third_party/cmp50hx-unlock/efi-unlock/blobs/v67_payload.bin", "bytes": 64000, "sha256": "de7288bcfb80c2d4b259a59e823c926ba0a9adcab594219cc6802c94257ce271"},
+    {"path": "third_party/cmp50hx-unlock/efi-unlock/blobs/gsp_rm_boot_dbg.bin", "bytes": 131072, "sha256": "fa43239bcee7b97ca62f007cc68487560a39e19f74f3dde7486db3f98df8e471"},
+    {"path": "artifacts/dell-a14-audit/PciRootBridge.pe", "sha256": "eac8ed469fcb4056ec4197bf5506dba2bc163b83866c314bf6570726cf1408ca"}
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "baseline": {
+    "cublas_f16_acc_fp32": {
+      "samples": 7,
+      "tflops": 48.1488,
+      "flops_per_sm_cycle": null,
+      "max_abs_error": null
+    },
+    "cublas_fp32_acc_cpu_reference": {
+      "samples": 1,
+      "tflops": null,
+      "flops_per_sm_cycle": null,
+      "max_abs_error": 0
+    },
+    "mma_f16_acc_fp16": {
+      "samples": 7,
+      "tflops": 99.8986,
+      "flops_per_sm_cycle": 1022.1337,
+      "max_abs_error": 0.0
+    },
+    "mma_f16_acc_fp32": {
+      "samples": 7,
+      "tflops": 46.9361,
+      "flops_per_sm_cycle": 511.6652,
+      "max_abs_error": 0.0
+    }
+  },
+  "unlocked": {
+    "cublas_f16_acc_fp32": {
+      "samples": 7,
+      "tflops": 85.1705,
+      "flops_per_sm_cycle": null,
+      "max_abs_error": null
+    },
+    "cublas_fp32_acc_cpu_reference": {
+      "samples": 1,
+      "tflops": null,
+      "flops_per_sm_cycle": null,
+      "max_abs_error": 0
+    },
+    "mma_f16_acc_fp16": {
+      "samples": 7,
+      "tflops": 93.6102,
+      "flops_per_sm_cycle": 1022.1171,
+      "max_abs_error": 0.0
+    },
+    "mma_f16_acc_fp32": {
+      "samples": 7,
+      "tflops": 93.6649,
+      "flops_per_sm_cycle": 1022.4380,
+      "max_abs_error": 0.0
+    }
+  },
+  "ratios": {
+    "fp32_acc_per_clock": 1.998255890766071,
+    "fp32_acc_tflops": 1.995583356946998,
+    "fp16_acc_per_clock": 0.9999837594631701,
+    "cublas_tflops": 1.7689018210215
+  }
+}

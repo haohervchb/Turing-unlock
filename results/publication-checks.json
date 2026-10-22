@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-22",
+  "scope": "Public sanitized source checkout; no host boot changes or live GPU benchmark execution during publication",
+  "efi_build": "Passed with original private input files; unconfigured public ESP profile. Output is not installed or redistributed.",
+  "efi_public_build_sha256": "3e6a117592724eeaf9932464ec6514d5ba5810f23ef486e0790edffd5d972fbc",
+  "core_and_direct_dma_tests": {
+    "plain": {"core": 579, "dma_protocol": 42, "direct_dma": 63, "total": 684, "passed": true},
+    "asan_ubsan": {"core": 579, "dma_protocol": 42, "direct_dma": 63, "total": 684, "passed": true},
+    "hardware_access": false,
+    "requires_private_inputs": true
+  },
+  "startup_tests": {
+    "public_plain_cases": 43,
+    "public_asan_ubsan_cases": 43,
+    "private_fixture_plain_cases": 45,
+    "private_fixture_asan_ubsan_cases": 45,
+    "all_passed": true,
+    "hardware_access": false
+  },
+  "offline_rom_profile_tests": {"cases": 15, "passed": true, "requires_private_inputs": true},
+  "cuda_13_builds": {"tensor_baseline": "passed", "tensor_validate": "passed", "executed_during_publication": false},
+  "shell_syntax": "passed",
+  "grub_template_syntax": "passed",
+  "numerical_result_crosscheck": {"checked_outputs": 295035, "maximum_absolute_error": 0},
+  "persistence": "Not implemented or enabled",
+  "two_gpu_unlock": "Not tested; ordinary two-card mining observed working after normal reboot"
+}

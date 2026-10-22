@@ -1,0 +1,15 @@
+/artifacts
+/build
+/third_party
+__pycache__/
+*.pyc
+*.bin
+*.rom
+*.efi
+*.EFI
+*.pe
+*.o
+*.so
+*.img
+.env
+*.local

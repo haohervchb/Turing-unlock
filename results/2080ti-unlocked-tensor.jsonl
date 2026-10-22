@@ -1,0 +1,23 @@
+{"gpu":"NVIDIA GeForce RTX 2080 Ti","bdf":"0000:02:00.0","sms":68,"sm":75,"threads_per_block":1024,"rounds":2048}
+{"test":"mma_f16_acc_fp32","sample":0,"ms":6.232800,"tflops":93.7193,"median_sm_cycles":8401680,"flops_per_sm_cycle":1022.4380,"max_abs_error":0.0,"unique_sms":68}
+{"test":"mma_f16_acc_fp32","sample":1,"ms":6.236896,"tflops":93.6577,"median_sm_cycles":8403294,"flops_per_sm_cycle":1022.2416,"max_abs_error":0.0,"unique_sms":68}
+{"test":"mma_f16_acc_fp32","sample":2,"ms":6.236416,"tflops":93.6649,"median_sm_cycles":8401434,"flops_per_sm_cycle":1022.4679,"max_abs_error":0.0,"unique_sms":68}
+{"test":"mma_f16_acc_fp32","sample":3,"ms":6.249568,"tflops":93.4678,"median_sm_cycles":8403473,"flops_per_sm_cycle":1022.2198,"max_abs_error":0.0,"unique_sms":68}
+{"test":"mma_f16_acc_fp32","sample":4,"ms":6.237568,"tflops":93.6476,"median_sm_cycles":8401571,"flops_per_sm_cycle":1022.4512,"max_abs_error":0.0,"unique_sms":68}
+{"test":"mma_f16_acc_fp32","sample":5,"ms":6.235136,"tflops":93.6841,"median_sm_cycles":8402836,"flops_per_sm_cycle":1022.2973,"max_abs_error":0.0,"unique_sms":68}
+{"test":"mma_f16_acc_fp32","sample":6,"ms":6.233088,"tflops":93.7149,"median_sm_cycles":8401636,"flops_per_sm_cycle":1022.4433,"max_abs_error":0.0,"unique_sms":68}
+{"test":"mma_f16_acc_fp16","sample":0,"ms":6.241600,"tflops":93.5871,"median_sm_cycles":8404386,"flops_per_sm_cycle":1022.1088,"max_abs_error":0.0,"unique_sms":68}
+{"test":"mma_f16_acc_fp16","sample":1,"ms":6.237792,"tflops":93.6443,"median_sm_cycles":8403798,"flops_per_sm_cycle":1022.1803,"max_abs_error":0.0,"unique_sms":68}
+{"test":"mma_f16_acc_fp16","sample":2,"ms":6.252832,"tflops":93.4190,"median_sm_cycles":8404318,"flops_per_sm_cycle":1022.1171,"max_abs_error":0.0,"unique_sms":68}
+{"test":"mma_f16_acc_fp16","sample":3,"ms":6.240064,"tflops":93.6102,"median_sm_cycles":8403588,"flops_per_sm_cycle":1022.2058,"max_abs_error":0.0,"unique_sms":68}
+{"test":"mma_f16_acc_fp16","sample":4,"ms":6.249728,"tflops":93.4654,"median_sm_cycles":8405299,"flops_per_sm_cycle":1021.9978,"max_abs_error":0.0,"unique_sms":68}
+{"test":"mma_f16_acc_fp16","sample":5,"ms":6.237760,"tflops":93.6447,"median_sm_cycles":8402977,"flops_per_sm_cycle":1022.2802,"max_abs_error":0.0,"unique_sms":68}
+{"test":"mma_f16_acc_fp16","sample":6,"ms":6.171200,"tflops":94.6548,"median_sm_cycles":8405488,"flops_per_sm_cycle":1021.9748,"max_abs_error":0.0,"unique_sms":68}
+{"test":"cublas_fp32_acc_cpu_reference","n":256,"max_abs_error":0}
+{"test":"cublas_f16_acc_fp32","n":8192,"sample":0,"ms":12.909536,"tflops":85.1705}
+{"test":"cublas_f16_acc_fp32","n":8192,"sample":1,"ms":12.936032,"tflops":84.9960}
+{"test":"cublas_f16_acc_fp32","n":8192,"sample":2,"ms":12.921856,"tflops":85.0893}
+{"test":"cublas_f16_acc_fp32","n":8192,"sample":3,"ms":12.901792,"tflops":85.2216}
+{"test":"cublas_f16_acc_fp32","n":8192,"sample":4,"ms":12.893792,"tflops":85.2745}
+{"test":"cublas_f16_acc_fp32","n":8192,"sample":5,"ms":12.949696,"tflops":84.9064}
+{"test":"cublas_f16_acc_fp32","n":8192,"sample":6,"ms":12.892160,"tflops":85.2853}

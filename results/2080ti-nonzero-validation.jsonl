@@ -1,0 +1,18 @@
+{"gpu":"NVIDIA GeForce RTX 2080 Ti","sms":68,"cuda_runtime":13000,"cuda_driver":13000,"cublas":130101}
+{"test":"nonzero_exact_gemm","m":128,"n":128,"k":128,"transpose_a":0,"transpose_b":0,"alpha":1.0,"beta":0.0,"checked_outputs":16384,"sampled":false,"seed":305419896,"max_abs_error":0}
+{"test":"nonzero_exact_gemm","m":127,"n":193,"k":257,"transpose_a":0,"transpose_b":0,"alpha":-0.5,"beta":0.5,"checked_outputs":24511,"sampled":false,"seed":2271560481,"max_abs_error":0}
+{"test":"nonzero_exact_gemm","m":128,"n":128,"k":128,"transpose_a":1,"transpose_b":0,"alpha":1.0,"beta":0.0,"checked_outputs":16384,"sampled":false,"seed":305419897,"max_abs_error":0}
+{"test":"nonzero_exact_gemm","m":127,"n":193,"k":257,"transpose_a":1,"transpose_b":0,"alpha":-0.5,"beta":0.5,"checked_outputs":24511,"sampled":false,"seed":2271560482,"max_abs_error":0}
+{"test":"nonzero_exact_gemm","m":128,"n":128,"k":128,"transpose_a":0,"transpose_b":1,"alpha":1.0,"beta":0.0,"checked_outputs":16384,"sampled":false,"seed":305419898,"max_abs_error":0}
+{"test":"nonzero_exact_gemm","m":127,"n":193,"k":257,"transpose_a":0,"transpose_b":1,"alpha":-0.5,"beta":0.5,"checked_outputs":24511,"sampled":false,"seed":2271560483,"max_abs_error":0}
+{"test":"nonzero_exact_gemm","m":128,"n":128,"k":128,"transpose_a":1,"transpose_b":1,"alpha":1.0,"beta":0.0,"checked_outputs":16384,"sampled":false,"seed":305419899,"max_abs_error":0}
+{"test":"nonzero_exact_gemm","m":127,"n":193,"k":257,"transpose_a":1,"transpose_b":1,"alpha":-0.5,"beta":0.5,"checked_outputs":24511,"sampled":false,"seed":2271560484,"max_abs_error":0}
+{"test":"nonzero_exact_gemm","m":511,"n":257,"k":383,"transpose_a":0,"transpose_b":0,"alpha":1.0,"beta":0.0,"checked_outputs":131327,"sampled":false,"seed":270544960,"max_abs_error":0}
+{"test":"nonzero_exact_gemm","m":8192,"n":8192,"k":8192,"transpose_a":0,"transpose_b":0,"alpha":1.0,"beta":0.0,"checked_outputs":128,"sampled":true,"seed":610800471,"max_abs_error":0}
+{"test":"nonzero_gemm_timing","sample":0,"ms":12.871680,"tflops":85.4210}
+{"test":"nonzero_gemm_timing","sample":1,"ms":12.852224,"tflops":85.5503}
+{"test":"nonzero_gemm_timing","sample":2,"ms":12.945344,"tflops":84.9349}
+{"test":"nonzero_gemm_timing","sample":3,"ms":12.881728,"tflops":85.3544}
+{"test":"nonzero_gemm_timing","sample":4,"ms":12.872640,"tflops":85.4146}
+{"test":"nonzero_gemm_timing","sample":5,"ms":12.929024,"tflops":85.0421}
+{"test":"nonzero_gemm_timing","sample":6,"ms":12.925792,"tflops":85.0634}
