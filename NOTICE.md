@@ -39,6 +39,16 @@ with other GPU generations.
 
 ## Public-source changes
 
+The Windows benchmark adaptation uses the CUDA arithmetic in
+`tools/tensor_baseline.cu` at `a188b24a392414f29f931ea886329227cfbc2f98`, whose
+SHA-256 is `2b93e0e7e5ea74a52b3aaa5c3666b3a5ac031eb002330abbdb8c8648f4c611ba`.
+Changes include header-free NVRTC compilation, CUDA driver API launches on
+PyTorch's current stream, packed-half exact-result checks, explicit cuBLAS
+compute modes, bounded monitoring and privacy-conscious result metadata.
+The derived module, companion validation harness and host tests use
+copyleft-next 0.3.1. See `docs/WINDOWS-BENCHMARK.md` for the distinction between
+the earlier tested workload and the host-tested publication wrapper.
+
 The loader/core/DMA logic is the tested v4 implementation, with its original
 board-specific guards retained. For publication, the real ESP GUID was replaced
 by an unconfigured all-zero initializer, its log text was generalized, and the

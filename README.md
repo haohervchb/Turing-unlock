@@ -79,6 +79,9 @@ and checks. Nothing in this repository installs a boot hook automatically.
   GPU access when running the host tests.
 - `tools/tensor_baseline.cu`, `tensor_validate.cu`: SM75 throughput and
   independent CPU-reference numerical checks.
+- `tools/tensor_validate_windows.py`, `tensor_issue_rate_windows.py`: opt-in
+  Windows/PyTorch NVRTC adaptation; see [Windows benchmark notes](docs/WINDOWS-BENCHMARK.md)
+  for dependencies, identity checks and the hardware-validation boundary.
 - `tools/tu102_port_profile.py`, `analyze_prom_capture.py`: offline ROM/profile
   analysis. These do not flash a card or execute firmware.
 - `docs/BUILD.md`: dependencies, private inputs, and build/test boundaries.
